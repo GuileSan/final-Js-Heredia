@@ -1,0 +1,9 @@
+[
+    {"id": 1, "nombre": "Pan o Dientes", "precio": 1200, "img": "public/pano-dientes.png", "cantidad":1},
+    {"id": 2, "nombre": "Plagiador Telepatico", "precio": 1100, "img": "public/plagiador.png", "cantidad":1},
+    {"id": 3, "nombre": "southern Madness", "precio": 1200, "img": "public/southern.png", "cantidad":1},
+    {"id": 4, "nombre": "Vakam", "precio": 1400, "img": "public/vakam.png", "cantidad":1},
+    {"id": 5, "nombre": "Hermanos Animales", "precio": 1200, "img": "public/hermanosanimales.png", "cantidad":1},
+    {"id": 6, "nombre": "Cuando el viento no Mueve las Hojas", "precio": 1500, "img": "public/antologia.png", "cantidad":1}
+
+]

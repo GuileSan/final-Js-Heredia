@@ -1,0 +1,107 @@
+body main {
+    background-image: url(../public/fondo.png);
+    background-repeat: repeat-y;
+    padding-bottom: 20px; }
+  
+  nav {
+    position: absolute; }
+  
+  .home-sec {
+    height: 100vh;
+    display: flex;
+    align-items: center; }
+  
+  .home-sec-2 {
+    height: 100vh;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center; }
+  
+  .present {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 10px; }
+  
+  .sec-titulo {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; }
+  
+  .lanza-items {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 5px; }
+  
+  #items-shop div div {
+    background-color: #fff;
+    height: 650px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 15px; }
+  
+  .sec-img {
+    max-width: 100%;
+    width: 650px;
+    height: auto; }
+  
+  h1 {
+    font-size: 3.5em; }
+  
+  h2 {
+    font-size: 2.5em; }
+  
+  h3 {
+    font-size: 2em; }
+  
+  p {
+    font-size: 1.5em; }
+  #aside {
+    float: right;
+  }  
+  
+  .btn {
+    width: 100px; }
+  
+  li:hover {
+    transform: scale(1.2); }
+  
+  /**Media queries para dispositivos moviles**/
+  @media (max-width: 768px) {
+    .sec-img {
+      width: 350px;
+      height: auto;
+      display: flex;
+      justify-content: center; }
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+    h1 {
+      font-size: 1.8em; }
+    h2 {
+      font-size: 1.5em; }
+    h3 {
+      font-size: 1.3em; }
+    p {
+      font-size: 1em; }
+    .items-img {
+      width: auto;
+      height: auto;
+      max-width: 300px; }
+    #items-shop div div {
+      max-width: 300px;
+      height: auto; }
+    .home-sec-img {
+      width: auto;
+      min-width: 300px; }
+    .home-sec-2 {
+      width: auto;
+      min-width: 300px; }
+    .present {
+      width: auto;
+      height: auto;
+      min-width: 300px; } }
